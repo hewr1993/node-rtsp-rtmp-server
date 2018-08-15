@@ -31,16 +31,16 @@ module.exports =
   enableRTSP: true
 
   # Enable RTMP/RTMPE server (not including RTMPT)
-  enableRTMP: true
+  enableRTMP: false
 
   # Enable RTMPT/RTMPTE server
-  enableRTMPT: true
+  enableRTMPT: false
 
   # Enable HTTP server
-  enableHTTP: true
+  enableHTTP: false
 
   # Enable custom protocol receiver
-  enableCustomReceiver: true
+  enableCustomReceiver: false
 
   ### Custom protocol receiver configurations ###
 
@@ -115,7 +115,7 @@ module.exports =
   keepaliveTimeoutMs: 30000  # milliseconds
 
   # RTSP
-  rtcpSenderReportIntervalMs: 5000  # milliseconds
+  rtcpSenderReportIntervalMs: 500  # milliseconds
 
   # RTMP ping timeout
   rtmpPingTimeoutMs: 5000  # milliseconds
